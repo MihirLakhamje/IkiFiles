@@ -9,7 +9,7 @@ export default function Header() {
         <>
             <Navbar>
                 <Container>
-                    <Navbar.Brand href="#home">IkiFiles</Navbar.Brand>
+                    <Navbar.Brand href="/">IkiFiles</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Navbar.Text>
