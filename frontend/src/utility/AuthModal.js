@@ -22,9 +22,6 @@ export default function AuthModal(props) {
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Control type="email" placeholder="Email Address" />
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                        <Form.Control type="password" placeholder="Password" />
-                    </Form.Group>
                     <Button variant="primary" className='w-100' type="submit">
                         Submit
                     </Button>
