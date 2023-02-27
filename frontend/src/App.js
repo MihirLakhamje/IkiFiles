@@ -1,19 +1,18 @@
 
 import './App.css';
 import Guest from './components/Guest';
-import Header from './headerfooter/Header'
 import {Routes, Route, BrowserRouter as Router} from "react-router-dom";
+import User from './components/User';
 
 
 function App() {
 	return (
 		<>
-			<Header />
 			<Router>
-
-			<Routes>
-				<Route exact path='/' element={<Guest/>}/>
-			</Routes>
+				<Routes>
+					<Route exact path='/' element={<Guest/>}/>
+					<Route path='/user/*' element={<User/>}/>
+				</Routes>
 			</Router>
 		</>
 	);
